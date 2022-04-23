@@ -1,0 +1,21 @@
+.makeStyles-table-1 {
+  border-radius: 12px !important;
+}
+.MuiTableCell-body {
+  color: $supirb_2black_color !important;
+}
+.MuiTableCell-head {
+  color: $supirb_20black_color !important;
+}
+.MuiTableHead-root {
+  background: $supirb_white_color;
+}
+@media (max-width: 767.98px) {
+  .WithStyles\(ForwardRef\(TableCell\)\)-body-13 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .schedule-history .MuiTableCell-head .MuiTableHead-root th:nth-child(3) {
+    display: none;
+  }
+}

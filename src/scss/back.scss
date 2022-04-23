@@ -1,0 +1,13 @@
+.back-btn {
+    display: none
+}
+
+@media (max-width: 767.98px) {
+    .back-btn {
+        display: inline-block;
+        background-color: $supirb_white_color;
+        line-height: 60px;
+        padding-left: 20px;
+        border-bottom: 1px solid $supirb_rate_bordr_color;
+    }
+}

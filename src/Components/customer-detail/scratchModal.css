@@ -1,0 +1,12 @@
+.ScratchCard__Canvas {
+  left: 0px !important;
+}
+.ScratchCard__Result {
+  padding-top: 28px !important;
+  padding-right: 50px !important;
+}
+@media (max-width: 767.98px) {
+  .ScratchCard__Canvas {
+    width: 92% !important;
+  }
+}

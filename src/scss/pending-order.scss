@@ -1,0 +1,71 @@
+.pending-order .pending-order-num {
+    font-size: 20px;
+    font-weight: 500;
+    color: $supirb_orange_color;
+}
+
+.pending-order-body .pending-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pending-order-body .pending-content h2 {
+    font-size: 30px;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.pending-order-body .pending-content p {
+    font-size: 18px;
+}
+
+.pending-order-body form {
+    // margin-bottom: 75px;
+}
+
+.pending-order-body .input-signing {
+    font-size: 16px;
+    color: $supirb_2black_color;
+}
+
+.pending-order-body .input-signing:focus {
+    outline: none;
+}
+
+.pending-img {
+    margin: 40px 0;
+}
+
+.pending-track-body p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.track-btn {
+    font-size: 18px;
+    color: $supirb_2black_color;
+    margin-top: 30px;
+    border: 1px solid $supirb_20black_color;
+    border-radius: 12px;
+    padding: 18px 45px;
+    font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+    .pending-order-body .pending-content h2 {
+        width: 100%;
+    }
+
+    .pending-track-body p {
+        font-size: 14px;
+    }
+
+    .track-btn {
+        padding: 15px 33px;
+        font-size: 13px;
+    }
+}

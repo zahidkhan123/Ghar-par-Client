@@ -1,0 +1,40 @@
+.rate{
+    max-width: 286px;
+    padding: 35px 28px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.rate .btn-rate{
+    background: $supirb_light-gray_color;
+    border-radius: 8px;
+    color: $supirb_20black_color;
+    line-height: 43px;
+    position: relative;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.rate .btn-rate:after{
+    content: "";
+    width: 286px;
+    height: 1px;
+    background: $supirb_rate_bordr_color;
+    position: absolute;
+    bottom: -16px;
+    left: -30px;
+}
+.net-charge{
+    padding: 20px 0;
+    color: $supirb_2black_color;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid $supirb_rate_bordr_color;
+}
+.net-charge span{
+    color: $supirb_orange_color;
+}
+.other-charges{
+    color: $supirb_20black_color;
+    padding-top: 20px;
+}

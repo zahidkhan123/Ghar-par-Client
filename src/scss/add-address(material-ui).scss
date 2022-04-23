@@ -1,0 +1,85 @@
+.add-address {
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 15px 60px $supirb_10black_color;
+  margin: 0 auto;
+}
+.add-address .makeStyles-paper-2 {
+  // left: 33%;
+  // top: 20%;
+}
+.add-address label {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.add-address .sel-label {
+  font-weight: 300;
+  font-size: 11px;
+  height: 50px;
+}
+.add-address input {
+  font-size: 11px;
+  padding: 17px 14px;
+  border-radius: 8px;
+  font-weight: 300;
+  border: none;
+  background: $supirb_40black_color;
+  line-height: 50px;
+  height: 50px;
+}
+.add-address .MuiOutlinedInput-input {
+  padding: 15px 14px;
+}
+.add-address .MuiInputBase-input {
+  background: $supirb_40black_color;
+}
+.add-address .MuiSelect-outlined.MuiSelect-outlined {
+  border-radius: 8px;
+}
+.add-address .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.add-address .MuiSelect-outlined.MuiSelect-outlined:hover {
+  border-color: white;
+}
+.add-address .MuiOutlinedInput-notchedOutline:hover {
+  border-color: white;
+}
+.add-address
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: $supirb_orange_color;
+}
+
+.add-address .MuiOutlinedInput-input {
+  margin-bottom: 10px;
+}
+.add-address .input-group {
+  margin-bottom: 10px;
+}
+.add-address .adson-btn {
+  margin-top: 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+  .add-address .makeStyles-paper-3 {
+    width: 90%;
+    padding: 20px;
+    // left: 5%;
+    // top: 10%;
+  }
+  .add-address input {
+    font-size: 12px;
+    padding: 15px 12px;
+    line-height: 40px;
+    height: 40px;
+  }
+  .add-address .adson-btn {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}

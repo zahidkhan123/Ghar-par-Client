@@ -1,0 +1,73 @@
+
+.slidein-modal .modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    max-width: 960px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+}
+
+.slidein-modal .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    overflow: visible;
+}
+.slidein-modal .modal-body{
+    padding: 0;
+    display: flex;
+    // position: relative;
+}
+
+    
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: 0px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.slidein-modal .modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+.slidein-modal .close-btn{
+    content: "";
+    position: absolute;
+    left: -45px;
+    top: 10px;
+    background-image: url(../images/ic_cross.svg);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: $supirb_white_color;
+    z-index: 10;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+.modal-header::before, .modal-header::after{
+    display: table;
+    content: " ";
+}
+
+
+
+
+
+@media (max-width: 767.98px) { 
+    .slidein-modal .modal-body{display: block;}
+    .slidein-modal .modal.right .modal-content {
+        overflow: auto;}
+}
+

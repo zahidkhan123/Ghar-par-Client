@@ -1,0 +1,66 @@
+.makeStyles-paper-1 {
+    box-shadow: 0px 6px 20px #00000029;
+    padding-bottom: 16px !important;
+}
+.addon-header{
+    text-align: center;
+    padding-bottom: 22px;
+    position: relative;
+}
+.addon-header::after{
+    content: '';
+    position: absolute;
+    width: 114%;
+    height: 1px;
+    bottom: 0;
+    left: -32px;
+    background-color: $supirb_light-gray_color;
+}
+.addon-body{
+    line-height: 50px;   
+}
+.addon-btn{
+    font-weight: 500;
+    padding-top: 10px;
+}
+.addon-body .form-inline .form-control{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.addon-body .form-control:focus {
+    color:$supirb_2black_color ;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    text-align: center;
+}
+.added-adson{
+    display: inline-flex;
+}
+.addon-body .price-tag{
+    position: fixed;
+    left: 55%;
+}
+@media (max-width: 767.98px) { 
+    .makeStyles-paper-1{
+        width: 90% !important;
+        left: 45% !important;
+        // top: 10%;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .addon-body .price-tag{
+        position: fixed;
+        left: 45%;
+    }
+    .addon-header::after{
+        content: '';
+        position: absolute;
+        width: 110%;
+        height: 1px;
+        bottom: 0;
+        left: -15px;
+        background-color: $supirb_light-gray_color;
+    }
+    }

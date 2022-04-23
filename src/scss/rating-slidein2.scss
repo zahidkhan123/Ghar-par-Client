@@ -1,0 +1,30 @@
+// .slidein-modal {
+//   height: 100%;
+//   overflow-y: auto;
+//   overflow: visible;
+// }
+.slidein-modal .rating-slidein-body {
+  display: flex;
+}
+
+.slidein-modal .close-btn {
+  content: "";
+  position: absolute;
+  left: -45px;
+  top: 10px;
+  background-image: url(../images/ic_cross.svg);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: $supirb_white_color;
+  z-index: 10;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 767.98px) {
+  .slidein-modal .rating-slidein-body {
+    display: block;
+  }
+}

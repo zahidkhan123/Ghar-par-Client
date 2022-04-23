@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap");
+
+.get-discount .get-dis-label {
+  font-size: 20px;
+  color: $supirb_orange_color;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.get-discount h4 {
+  color: $supirb_2black_color;
+  margin-bottom: 6px;
+}
+.get-discount p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.get-discount .done-btn {
+  font-size: 16px;
+  font-weight: 500;
+  // padding: 18px 70px;
+}
+.get-discount img {
+  padding: 25px;
+}
+
+.get-discount .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-discount .container-text {
+  position: absolute;
+  top: 37%;
+  display: flex;
+  line-height: normal;
+  flex-direction: column;
+}
+
+.get-discount .container-text-avail {
+  //   top: 362px;
+  //   left: 654px;
+  //   width: 80px;
+  //   height: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 4.8px;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 36px;
+}
+
+.get-discount .container-text-15perc {
+  //     top: 376px;
+  // left: 622px;
+  // width: 144px;
+  // height: 93px;
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 76px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 66px;
+}
+
+.get-discount .container-text-discount {
+  //     top: 455px;
+  // left: 637px;
+  // width: 114px;
+  // height: 29px;
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.get-discount .container-flat-text {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  line-height: normal;
+  flex-direction: column;
+}
+
+.get-discount .container-text-flat {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 36px;
+}
+
+.get-discount .container-text-Rs {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 28px;
+  //   text-align: center;
+  //   letter-spacing: 4.8px;
+  //   color: #ffffff;
+  //   opacity: 1;
+  //   line-height: 36px;
+}
+
+.get-discount .container-text-amount {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  font-size: 76px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 66px;
+}
+
+@media (max-width: 767.98px) {
+  .get-discount .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .get-discount .container-text {
+    position: absolute;
+    top: 37%;
+    display: flex;
+    line-height: normal;
+    flex-direction: column;
+  }
+
+  .get-discount .container-text-avail {
+    //   top: 362px;
+    //   left: 654px;
+    //   width: 80px;
+    //   height: 29px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 4.8px;
+    color: #ffffff;
+    opacity: 1;
+    line-height: 36px;
+  }
+
+  .get-discount .container-text-15perc {
+    //     top: 376px;
+    // left: 622px;
+    // width: 144px;
+    // height: 93px;
+    font-size: 76px;
+    text-align: left;
+    color: #ffffff;
+    opacity: 1;
+    line-height: 66px;
+  }
+
+  .get-discount .container-text-discount {
+    //     top: 455px;
+    // left: 637px;
+    // width: 114px;
+    // height: 29px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  //   .get-discount .container-flat-text {
+  //     position: absolute;
+  //     top: 40%;
+  //     display: flex;
+  //     line-height: normal;
+  //     flex-direction: column;
+  //   }
+
+  //   .get-discount .container-text-flat {
+  //     font-family: "Montserrat", sans-serif;
+  //     font-size: 24px;
+  //     text-align: center;
+  //     letter-spacing: 0.3px;
+  //     color: #ffffff;
+  //     opacity: 1;
+  //     line-height: 36px;
+  //   }
+
+  //   .get-discount .container-text-Rs {
+  //     font-family: "Montserrat", sans-serif;
+  //     color: white;
+  //     font-size: 28px;
+  //     //   text-align: center;
+  //     //   letter-spacing: 4.8px;
+  //     //   color: #ffffff;
+  //     //   opacity: 1;
+  //     //   line-height: 36px;
+  //   }
+
+  //   .get-discount .container-text-amount {
+  //     font-family: "Montserrat", sans-serif;
+  //     margin-left: 10px;
+  //     font-size: 76px;
+  //     text-align: left;
+  //     color: #ffffff;
+  //     opacity: 1;
+  //     line-height: 66px;
+  //   }
+}

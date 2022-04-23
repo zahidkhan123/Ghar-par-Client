@@ -1,0 +1,362 @@
+.order-clearance {
+  max-width: 670px;
+  border-right: 1px solid $supirb_rate_bordr_color;
+  display: inline-table;
+  .giftbox-mbl {
+    display: none;
+  }
+}
+
+.recp-header {
+  padding: 20px 50px;
+  // width: 510px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $supirb_header-bg_color;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.confirmed-width {
+  width: 400px;
+}
+
+.order-clearance .order-summary {
+  // padding: 0;
+}
+
+.recp-header span {
+  color: $supirb_blue_color;
+}
+
+.btn-pending {
+  font-size: 11px;
+  display: block;
+  background-color: $supirb_orange_color;
+  color: $supirb_white_color;
+  border-radius: 8px;
+  max-height: 32px;
+  line-height: 32px;
+  padding: 0 26px;
+}
+
+.recp-location {
+  padding: 20px 70px;
+  font-weight: 500;
+}
+
+.recp-location address {
+  position: relative;
+}
+
+.recp-location address:before {
+  content: "";
+  background-image: url("../images/location-icon.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -23px;
+  top: 3px;
+  width: 12px;
+  height: 16px;
+}
+
+.resp-card .btn.collapsed::after {
+  content: " ";
+  background: url(../images/ic_downarrow.svg) no-repeat;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.resp-card .btn::after {
+  content: " ";
+  background: url(../images/ic_uparrow.svg) no-repeat;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.resp-card {
+  border: 2px dashed $supirb_light-gray_color;
+  margin: 0 20px 20px;
+  padding: 18px 18px 0 27px;
+  border-radius: 20px;
+}
+
+.resp-card .card-header {
+  border-bottom: none;
+  background-color: $supirb_white_color;
+  padding: 0;
+  margin-bottom: 15px;
+  padding-right: 40px;
+}
+
+.resp-card .card-header .btn {
+  background: none;
+  padding: 0;
+}
+
+.resp-card .card-body {
+  padding: 0;
+}
+
+.resp-card .resp-card-body img {
+  float: left;
+  max-height: 55px;
+  max-width: 55px;
+}
+
+.resp-card .resp-card-body {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.resp-card .resp-card-body .rating-name {
+  display: flex;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.resp-card .resp-card-body:first-child .rating-name {
+  padding-left: 10px;
+}
+
+.resp-card .resp-card-body:first-child .comp-dtl {
+  padding-left: 30px;
+}
+
+.comp-wrap {
+  display: flex;
+}
+
+.resp-card .resp-card-body span {
+  font-size: 12px;
+  color: $supirb_blue_color;
+}
+
+.conf-btn {
+  font-size: 11px;
+  display: block;
+  color: $supirb_2black_color;
+  background: $supirb_light-gray_color;
+  max-height: 24px;
+  border-radius: 6px;
+  padding: 0 10px;
+  line-height: 24px;
+  margin-left: 24px;
+}
+
+.resp-card .table {
+  // margin-bottom: 0;
+}
+
+.resp-card .table thead {
+  font-size: 12px;
+  color: $supirb_20black_color;
+  font-weight: 500;
+}
+
+.resp-card .table .card-body {
+  color: $supirb_2black_color;
+}
+
+.resp-card .table tbody tr {
+  border-top: 1px solid $supirb_light-gray_color;
+}
+
+.resp-card .table tbody tr:last-child {
+  border-top: none;
+  // color: $supirb_orange_color;
+  color: black;
+  font-weight: 500;
+  padding-bottom: 0;
+}
+
+.resp-card .table tr:first-child {
+  border-top: none;
+}
+
+// .resp-card .table td:first-child {
+//   max-width: 140px;
+// }
+
+.job-time {
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid $supirb_light-gray_color;
+  border-bottom: 1px solid $supirb_light-gray_color;
+  font-weight: 500;
+}
+
+.resp-card .table td:last-child {
+  // max-width: 40px;
+}
+
+.recp-inst {
+  margin-left: 20px;
+  color: $supirb_20black_color;
+  font-weight: 500;
+}
+
+.recp-inst textarea {
+  width: 90%;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 12px;
+  border-color: $supirb_rate_bordr_color;
+  resize: none;
+}
+
+.comp-dtl {
+  display: flex;
+  flex-direction: column;
+}
+
+.comp-dtl label {
+  font-size: 12px;
+  color: $supirb_20black_color;
+}
+
+.resp-card .resp-card-body .comp-dtl span {
+  font-size: 14px;
+  color: $supirb_2black_color;
+}
+
+.resp-card-body {
+  width: 500px;
+}
+
+// complete button
+.btn-complete {
+  font-size: 11px;
+  display: block;
+  background-color: $supirb__btn_complete_color;
+  color: $supirb_white_color;
+  border-radius: 8px;
+  max-height: 32px;
+  line-height: 32px;
+  padding: 0 26px;
+}
+
+// cancel button
+.btn-cancel {
+  font-size: 11px;
+  display: block;
+  background-color: $supirb__btn_cancel_color;
+  color: $supirb_white_color;
+  border-radius: 8px;
+  max-height: 32px;
+  line-height: 32px;
+  padding: 0 26px;
+}
+
+// no beautician assigned
+.no-assign {
+  background: $supirb_light-gray_color;
+  border-radius: 6px;
+  padding: 8px 20px;
+  max-height: 36px;
+}
+
+@media (max-width: 767.98px) {
+  .recp-header {
+    padding: 20px;
+    font-size: 12px;
+    width: 375px;
+  }
+
+  .recp-location {
+    padding: 20px 35px;
+    font-size: 12px;
+  }
+
+  .rating-star {
+    display: none;
+  }
+
+  .resp-card .resp-card-body .rating-name {
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .resp-card .resp-card-body .comp-dtl span {
+    font-size: 12px;
+  }
+
+  .conf-btn {
+    max-width: 88px;
+    margin-left: 0;
+    font-size: 8px;
+    margin-top: 5px;
+  }
+
+  .resp-card {
+    padding: 10px 10px 0 15px;
+  }
+
+  .resp-card .resp-card-body {
+    flex-direction: column;
+  }
+
+  .resp-card .card-header {
+    // border-bottom: 1px solid $supirb_rate_bordr_color;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  .order-clearance {
+    .giftbox-mbl {
+      display: inline;
+    }
+  }
+
+  .order-clearance table thead th:nth-child(3) {
+    display: none;
+  }
+
+  .order-clearance table tbody {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .order-clearance table tbody td:nth-child(3) {
+    display: none;
+  }
+
+  .resp-card .table thead {
+    font-size: 10px;
+  }
+
+  .comp-wrap {
+    justify-content: space-between;
+  }
+
+  .resp-card .resp-card-body:first-child .comp-dtl {
+    padding-left: 0;
+  }
+
+  .order-cancel small {
+    font-size: 8px;
+  }
+
+  .confirmed-width {
+    width: 263px;
+  }
+
+  .pending-table {
+    display: flex;
+    width: 132%;
+    justify-content: space-between;
+  }
+
+  .resp-card-body {
+    // width: 263px;
+    width: 240px;
+  }
+}

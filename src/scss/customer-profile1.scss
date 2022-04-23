@@ -1,0 +1,182 @@
+// .customer-profile {
+//   background: $supirb_white_color;
+//   box-shadow: 0px 15px 60px $supirb_10black_color;
+//   border-radius: 12px;
+//   margin: 50px 0;
+//   display: flex;
+//   justify-content: space-around;
+//   padding: 50px 0;
+// }
+// .profile-img {
+//   position: relative;
+//   max-width: 140px;
+// }
+// .profile-img img {
+//   margin-bottom: 20px;
+// }
+// .edit-image {
+//   content: "";
+//   width: 48px;
+//   height: 48px;
+//   background-color: $supirb_white_color;
+//   text-align: center;
+//   padding-top: 12px;
+//   position: absolute;
+//   right: 0;
+//   top: 95px;
+//   border-radius: 50px;
+//   box-shadow: 0px 15px 60px $supirb_10black_color;
+// }
+// .profile-img label {
+//   color: $supirb_orange_color;
+//   background-color: #fdf1e7;
+//   border-radius: 4px;
+//   width: 100%;
+//   text-align: center;
+//   line-height: 34px;
+// }
+// .customer-profile-dtl {
+//   width: 70%;
+// }
+// .customer-profile-dtl .nav-pills .tabs.active,
+// .nav-pills .show > .nav-link {
+//   color: $supirb_blue_color;
+//   border-bottom: 1px solid $supirb_blue_color;
+//   background-color: transparent;
+// }
+// .customer-profile-dtl ul li {
+//   font-weight: 500;
+//   margin-bottom: 30px;
+// }
+// .customer-profile-dtl ul li:last-child {
+//   padding-left: 25px;
+// }
+
+// .customer-profile-dtl .tabs {
+//   text-align: left;
+//   color: $supirb_2black_color;
+//   border: none;
+//   padding-bottom: 10px;
+// }
+// .customer-profile-dtl .form-control {
+//   -webkit-appearance: none;
+//   padding: 0;
+// }
+// .customer-profile-dtl .form-group small {
+//   color: $supirb_blue_color;
+// }
+// .customer-profile-dtl select.form-control:not([size]):not([multiple]) {
+//   height: auto;
+// }
+// .customer-profile-dtl .select-people::after {
+//   top: 20px;
+// }
+// .customer-profile-dtl .form-group label {
+//   font-size: 12px;
+//   font-weight: 300;
+//   color: $supirb_20black_color;
+// }
+// .customer-profile-dtl .profile-input-display {
+//   width: 100%;
+//   border: 1px solid $supirb_light-gray_color;
+//   border-radius: 6px;
+//   line-height: 45px;
+//   padding-left: 15px;
+//   color: $supirb_2black_color;
+// }
+// .profile-form .row:nth-child(2) .form-group .profile-input-display {
+//   // background-color: $supirb_light-gray_color;
+// }
+// .profile-col-width {
+//   width: 48%;
+// }
+// .customer-profile .address {
+//   width: 48%;
+// }
+// .customer-profile .add-address {
+//   padding: 40px 20px 20px;
+//   resize: none;
+//   border-color: $supirb_light-gray_color;
+//   box-shadow: none;
+// }
+// .customer-profile .text-address:after {
+//   left: 350px;
+// }
+// .customer-profile .add-picker {
+//   width: 95%;
+//   margin-top: 20px;
+//   margin-left: 35px;
+// }
+
+// @media (max-width: 767.98px) {
+//   .customer-profile {
+//     flex-direction: column;
+//     max-width: 320px;
+//     margin: 20px auto;
+//     padding: 20px 0 0;
+//   }
+//   .customer-profile-dtl {
+//     width: 100%;
+//   }
+//   .profile-img {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-around;
+//     max-width: 100%;
+//   }
+//   .profile-img label {
+//     max-width: 40%;
+//   }
+//   .profile-img img {
+//     max-width: 80px;
+//   }
+//   .edit-image {
+//     width: 28px;
+//     height: 28px;
+//     left: 80px;
+//     top: 55px;
+//     padding-top: 6px;
+//   }
+//   .edit-image img {
+//     max-width: 12px;
+//   }
+//   .customer-profile-dtl ul li {
+//     width: 50%;
+//     text-align: center;
+//   }
+//   .customer-profile-dtl ul li:last-child {
+//     padding-left: 0;
+//   }
+//   .customer-profile-dtl .nav-pills .tabs.active,
+//   .nav-pills .show > .nav-link {
+//     width: 100%;
+//   }
+//   .customer-profile .tab-content {
+//     padding: 0 15px;
+//   }
+//   .profile-col-width {
+//     width: 100%;
+//   }
+//   .customer-profile .address {
+//     width: 120%;
+//   }
+//   .customer-profile .add-address {
+//     font-size: 12px;
+//     padding-top: 30px;
+//   }
+//   .customer-profile .text-address {
+//     font-size: 12px;
+//   }
+//   .customer-profile .text-address:after {
+//     left: 130px;
+//   }
+//   .text-address {
+//     top: 10px;
+//   }
+//   .customer-profile .add-picker {
+//     margin-left: 20px;
+//   }
+//   .marg-30 {
+//     margin: 30px;
+//   }
+// }

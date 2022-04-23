@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "4GG8J3QES8.com.appsgenii.gahrpar",
+        "paths": ["*"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["4GG8J3QES8.com.appsgenii.gahrpar"]
+  }
+}

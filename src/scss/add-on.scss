@@ -1,0 +1,175 @@
+.makeStyles-paper-1 {
+  box-shadow: 0px 6px 20px #00000029;
+  // padding-bottom: 16px !important;
+  // top: 10% !important;
+  // left: 30% !important;
+}
+
+.addon-header {
+  text-align: center;
+  padding-bottom: 22px;
+  position: relative;
+}
+
+.addon-header::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 1px;
+  bottom: 0;
+  left: -32px;
+  background-color: $supirb_light-gray_color;
+}
+
+.addon-body {
+  line-height: 15px;
+  max-height: 450px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.addon-btn {
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.addon-body .form-inline .form-control {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.addon-body .form-control:focus {
+  color: $supirb_2black_color;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  text-align: center;
+}
+
+.added-adson {
+  display: inline-flex;
+}
+
+.addon-body .price-tag {
+  position: absolute;
+  left: 55%;
+}
+
+// .addon-body .price-tag {
+//   position: fixed;
+//   left: 48%;
+// }
+
+.addon-body .checkbtn {
+  margin-right: 10px;
+
+  .check-lab {
+    width: 100%;
+    resize: none;
+    margin-bottom: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+
+    &:after,
+    &:before {
+      content: "";
+      border-radius: 3px 0 0 0;
+      background: #fff;
+      width: 30px;
+      height: 70px;
+      top: -35px;
+      left: 0px;
+      transform: rotate(45deg);
+      position: absolute;
+    }
+
+    &:before {
+      background: transparent;
+      transition: 0.1s width cubic-bezier(0.075, 0.82, 0.165, 1) 0s,
+        0.3s height cubic-bezier(0.075, 0.82, 0.165, 2) 0.1s;
+      z-index: 2;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: 13px;
+      background-position: center;
+      width: 0;
+      height: 0;
+      background-image: url(../images/ic_tick.svg);
+      top: -12px;
+      left: 7px;
+      transform: rotate(0deg);
+    }
+  }
+}
+
+.checkbtn input[type="checkbox"] {
+  display: none;
+  position: absolute;
+  width: 100%;
+  appearance: none;
+
+  &:checked+label {
+    animation-name: blink;
+    animation-duration: 1s;
+    border-color: $supirb_blue_color;
+
+    &:after {
+      background: $supirb_blue_color;
+    }
+
+    &:before {
+      width: 20px;
+      height: 20px;
+      background-image: url(../images/ic_tick.svg);
+      top: 1px;
+      left: 1px;
+    }
+  }
+}
+
+.addon-body .service-item {
+  // padding: 0px;
+  background: none;
+  box-shadow: none;
+}
+
+.addsOn-service-title {
+  max-width: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .makeStyles-paper-1 {
+    width: 90% !important;
+    // left: 5% !important;
+    // top: 50% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  // .addon-body .price-tag {
+  //   position: fixed;
+  //   left: 45%;
+  // }
+  .addon-header::after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 1px;
+    bottom: 0;
+    left: -15px;
+    background-color: $supirb_light-gray_color;
+  }
+  // .addsOnBtn [type=button], [type=reset], [type=submit], button  {
+    .addsOnBtn {
+    -webkit-appearance: none !important;
+  }
+
+  [type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: none !important;
+  }
+  .addsOn-service-title {
+    max-width: 50%;
+  }
+}

@@ -1,0 +1,384 @@
+.order-body {
+  padding: 30px;
+  background-color: $supirb_white_color;
+  box-shadow: 0px 10px 45px $supirb_10black_color;
+  border-radius: 12px;
+  font-weight: 500;
+  color: $supirb__order_input_color;
+}
+
+.date-and-time {
+  display: inline-flex;
+}
+
+.order-body label {
+  color: $supirb_blue_color;
+  margin-bottom: 10px;
+}
+
+.order-body .input-group-addon {
+  position: relative;
+}
+
+.order-body .glyphicon-calendar {
+  position: absolute;
+  left: -30px;
+  top: 7px;
+}
+
+.order-body .input-group .form-control {
+  border: 1px solid $supirb_light-gray_color;
+  font-size: 12px;
+  line-height: 27px;
+  border-radius: 6px;
+  background-color: $supirb_white_color;
+}
+
+.order-body .form-control {
+  -webkit-appearance: none;
+  position: relative;
+}
+
+.select-people {
+  position: relative;
+  flex: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.select-people::after {
+  content: "";
+  display: block;
+  background: url(../images/ic_downarrow.svg) no-repeat;
+  background-position: center center;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  cursor: pointer;
+  pointer-events: none;
+  padding-left: 30px;
+}
+
+.order-body .form-width {
+  width: 50%;
+}
+
+.order-body .add-address:hover {
+  border: 2px solid $supirb_blue_color;
+  background-color: $supirb_bg_color;
+}
+
+.address .form-group {
+  position: relative;
+  color: $supirb_2black_color;
+  margin-right: 10px;
+}
+
+.text-address img {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.order-body .input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.order-body .add-address {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid $supirb_light-gray_color;
+  padding: 40px 20px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: none;
+  resize: none;
+  min-width: 350px;
+}
+
+.order-body .spc-inst {
+  width: 100%;
+  padding: 10px;
+  background-color: $supirb_white_color;
+}
+
+.order-body .spc-inst form {
+  max-width: 100%;
+}
+
+.order-body .instr {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid $supirb_light-gray_color;
+  padding: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: $supirb_white_color;
+  resize: none;
+}
+
+.address-wrap {
+  display: inline-flex;
+  width: 100%;
+}
+
+.myaddress-wrap {
+  min-height: 120px;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    background: $supirb_light-gray_color;
+    height: 5px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $supirb_20black_color;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: $supirb_2black_color;
+  }
+}
+
+.order-body .address-wrap .form-width {
+  width: 70%;
+}
+
+// customise checkbox
+input[type="radio"] {
+  -webkit-appearance: none;
+}
+
+.form-group.add-address input:checked ~ .order-body .add-address {
+  border: 2px solid $supirb_blue_color;
+  background-color: $supirb_bg_color;
+}
+
+.order-dtl form {
+  // max-width: 450px;
+  position: relative;
+  font-size: 15px;
+}
+
+.radiobtn {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 100px;
+  margin-right: 10px;
+
+  label {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #e2dcd9;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: none;
+    color: $supirb_2black_color;
+    resize: none;
+    height: 100%;
+    margin-bottom: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+
+    &:after,
+    &:before {
+      content: "";
+      border-radius: 3px 0 0 0;
+      background: #fff;
+      width: 30px;
+      height: 70px;
+      top: -35px;
+      left: 0px;
+      transform: rotate(45deg);
+      position: absolute;
+    }
+
+    &:before {
+      background: transparent;
+      transition: 0.1s width cubic-bezier(0.075, 0.82, 0.165, 1) 0s,
+        0.3s height cubic-bezier(0.075, 0.82, 0.165, 2) 0.1s;
+      z-index: 2;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: 13px;
+      background-position: center;
+      width: 0;
+      height: 0;
+      background-image: url(../images/ic_tick.svg);
+      top: -12px;
+      left: 7px;
+      transform: rotate(0deg);
+    }
+  }
+
+  input[type="radio"] {
+    display: none;
+    position: absolute;
+    width: 100%;
+    appearance: none;
+
+    &:checked + label {
+      animation-name: blink;
+      animation-duration: 1s;
+      border-color: $supirb_blue_color;
+
+      &:after {
+        background: $supirb_blue_color;
+      }
+
+      &:before {
+        width: 20px;
+        height: 20px;
+        background-image: url(../images/ic_tick.svg);
+        top: 1px;
+        left: 1px;
+      }
+    }
+  }
+}
+
+.add-picker {
+  background: $supirb_40black_color;
+  border: 1px dashed $supirb_light-gray_color;
+  border-radius: 6px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  color: $supirb_20black_color;
+  margin: 33px 20px 0 20px;
+  font-weight: 300;
+}
+
+.add-picker a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: $supirb_20black_color;
+  display: block;
+  text-align: center;
+}
+
+.address-elipse {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: $supirb_light-gray_color;
+  margin: 0 auto;
+  margin-bottom: 7px;
+}
+
+.address-elipse img {
+  width: 20px;
+  padding-top: 8px;
+}
+
+.date-and-time .time {
+  margin-left: 20px;
+}
+
+.address-wrapp {
+  white-space: normal;
+  word-break: break-all;
+  overflow: auto;
+  display: block;
+  max-height: 50px;
+}
+
+.react-date-picker {
+  border: none;
+  border-bottom: 1px solid grey;
+  padding-bottom: 7px;
+  margin-top: 6px;
+  font-family: "arial";
+}
+
+@media (max-width: 767.98px) {
+  .react-date-picker {
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 7px;
+    margin-top: 6px;
+    margin-left: 15px;
+    max-width: 180px;
+    font-family: "arial";
+  }
+
+  .order-dtl {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .order-body .form-width {
+    width: 100%;
+  }
+
+  .order-body .address-wrap .form-width {
+    width: 70%;
+  }
+
+  .add-picker {
+    margin: 30px 0px 0px 0px;
+    width: 120%;
+  }
+
+  .order-body .text-address img {
+    left: 130px;
+  }
+
+  .order-body {
+    // padding-bottom: 0;
+  }
+
+  .add-picker span:last-child {
+    display: none !important;
+  }
+
+  .text-address:after {
+    left: 130px;
+  }
+
+  .order-body .add-address {
+    min-width: 190px;
+  }
+
+  .order-body .text-address {
+    top: 0;
+  }
+
+  .radiobtn {
+    width: 160px;
+  }
+
+  .date-and-time {
+    flex-direction: column;
+  }
+
+  .date-and-time .time {
+    margin-left: 0px;
+  }
+
+  .k-dateinput,
+  .k-datepicker,
+  .k-datetimepicker,
+  .k-timepicker {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,183 @@
+.schedule-history {
+  min-height: 400px;
+  background: $supirb_bg_color;
+  // padding-bottom: 70px;
+}
+
+.sche-header {
+  padding: 24px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.makeStyles-table-1 {
+  border-radius: 12px !important;
+  background: $supirb_white_color 0% 0% no-repeat padding-box;
+  box-shadow: 0px 15px 60px $supirb_10black_color;
+}
+
+.MuiTableCell-body {
+  color: $supirb_2black_color !important;
+}
+
+.MuiTableCell-head {
+  color: $supirb_20black_color !important;
+}
+
+.MuiTableHead-root {
+  background: $supirb_white_color;
+}
+
+.schedule-history .form-control {
+  font-size: 10px;
+  width: 183px;
+  color: $supirb_20black_color;
+  background: $supirb_white_color;
+  box-shadow: 0px 16px 60px $supirb_10black_color;
+  border-radius: 6px;
+}
+
+.search-input {
+  position: relative;
+  max-width: 200px;
+}
+
+.schedule-history .search-input:after {
+  content: "";
+  background: transparent url("../images/ic_search.svg");
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 14px;
+  top: 6px;
+  right: 10px;
+  position: absolute;
+}
+
+.schedule-history .nav-item {
+  font-weight: 500;
+}
+
+.schedule-history .nav-pills .nav-link {
+  padding: 7px;
+  border-radius: 8px 0px 0px 8px;
+  width: 135px;
+}
+
+.schedule-history .nav-pills .nav-item:last-child .nav-link {
+  padding: 7px;
+
+  border-radius: 0px 8px 8px 0px;
+}
+
+.schedule-history .tabs {
+  text-align: center;
+  font-size: 12px;
+  color: $supirb_20black_color;
+  border: 2px solid #e2dcd9;
+}
+
+.schedule-history .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  border: 2px solid $supirb_blue_color;
+  background-color: $supirb_blue_color;
+  border-radius: 6px 0px 0px 6px;
+  color: $supirb_white_color;
+  transition: all 0.5s linear;
+}
+
+.pagination span {
+  width: 30px;
+  height: 30px;
+  background: $supirb_light-gray_color 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 3px;
+  margin: 0 7px;
+}
+
+.pagination .form-control {
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-top: -10px;
+}
+
+.pagination small {
+  color: $supirb_20black_color;
+  padding-top: 3px;
+}
+
+@media (max-width: 767.98px) {
+  .sche-header {
+    flex-direction: column-reverse;
+  }
+
+  .schedule-history .nav-item {
+    width: 50%;
+  }
+
+  .schedule-history .nav-pills .nav-link {
+    width: 100%;
+  }
+
+  .schedule-history .nav-pills .nav-item:last-child .nav-link {
+    border-radius: 0;
+  }
+
+  .schedule-history .nav-pills .nav-link.active,
+  .nav-pills .show>.nav-link {
+    border-radius: 0;
+  }
+
+  .schedule-history .form-control {
+    width: 105%;
+    margin: 20px;
+    height: 40px;
+  }
+
+  .schedule-history .nav-pills .nav-link {
+    border-radius: 0;
+  }
+
+  .sche-body {
+    margin: 0 20px 70px;
+  }
+
+  .search-input {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .schedule-history .search-input:after {
+    top: 32px;
+    left: 330px;
+  }
+
+  table thead th:nth-child(3) {
+    display: none !important;
+  }
+
+  table tbody tr td:nth-child(3) {
+    display: none !important;
+  }
+
+  .makeStyles-table-1 {
+    min-width: 320px !important;
+  }
+
+  .pagination .form-control {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+
+  .schedule-history {
+    position: relative;
+  }
+
+  .schedule-history .pagination {
+    position: absolute;
+    bottom: 500px;
+    left: 30%;
+  }
+}

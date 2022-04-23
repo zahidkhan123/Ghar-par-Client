@@ -1,0 +1,74 @@
+.select-gender {
+  width: 322px;
+  text-align: center;
+}
+.select-gender .makeStyles-paper-1 {
+  // left: 35% !important;
+  // top: 20% !important;
+}
+.select-gender .MuiTypography-body1 {
+  font-size: 12px !important;
+  color: $supirb_orange_color;
+}
+.select-gender .MuiFormControl-root {
+  width: 100%;
+}
+.select-gender .MuiFormControlLabel-root {
+  margin: 0;
+  width: 50%;
+}
+.select-gender .PrivateSwitchBase-root-321 {
+  padding: 0;
+}
+.select-gender .PrivateSwitchBase-root-321 {
+  padding: 0;
+}
+.select-gender .sel-female {
+  background-image: url(../images/ic_female.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  // color:$supirb_orange_color ;
+}
+.select-gender .MuiFormControlLabel-label {
+  position: absolute;
+  top: 67%;
+}
+.select-gender .sel-male {
+  background-image: url(../images/ic_male.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  // color:$supirb_orange_color ;
+}
+.select-gender .sel-female .makeStyles-checkedIcon-5 {
+  background-color: $supirb_orange_color !important;
+  background-image: url(../images/ic_female_white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-bottom-left-radius: 12px;
+}
+
+.select-gender .sel-male .makeStyles-checkedIcon-5 {
+  background-color: $supirb_orange_color !important;
+  background-image: url(../images/ic_male_white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-bottom-right-radius: 12px;
+}
+.select-gender .MuiFormControlLabel-root.Mui-disabled {
+  cursor: default;
+  background-color: $supirb__20pink_color;
+  color: $supirb_orange_color;
+  border-bottom-right-radius: 12px;
+}
+.select-gender .MuiFormControlLabel-label.Mui-disabled {
+  color: $supirb_orange_color;
+}
+
+@media (max-width: 767.98px) {
+  .select-gender .makeStyles-paper-2 {
+    // left: 7%;
+    // top: 12%;
+  }
+}

@@ -1,0 +1,56 @@
+.adson-modal {
+  width: 25%;
+  margin: 0 auto;
+  box-shadow: 0px 6px 20px $supirb_adson_shadow_color;
+  border-radius: 18px;
+  font-size: 12px;
+}
+.adson-modal .adson-header {
+  text-align: center;
+  border-bottom: 1px solid $supirb_light-gray_color;
+  padding: 22px 0 10px;
+}
+.adson-modal .adson-header img {
+  float: right;
+  padding-right: 10px;
+}
+.adson-modal .adson-body {
+  line-height: 50px;
+  // border-bottom: 1px solid $supirb_light-gray_color;
+  padding: 0 20px;
+}
+.done-btn {
+  background-color: $supirb_orange_color;
+  color: $supirb_white_color;
+  padding: 7px 30px;
+  box-shadow: 0px 6px 12px $supirb_light-orange_color;
+  border-radius: 6px;
+}
+.done-btnn {
+  background-color: $supirb_orange_color;
+  color: $supirb_white_color;
+  padding: 7px 30px;
+  box-shadow: 0px 6px 12px $supirb_light-orange_color;
+  border-radius: 6px;
+}
+.adson-btn {
+  font-weight: 500;
+}
+.cancel-btn {
+  padding-right: 20px;
+  color: $supirb_20black_color;
+}
+a:hover {
+  text-decoration: none;
+}
+@media (max-width: 767.98px) {
+  .adson-modal {
+    width: 90%;
+  }
+  .adson-modal .price-tag {
+    margin-bottom: 0;
+  }
+  .adson-modal .adson-body {
+    line-height: 45px;
+  }
+}

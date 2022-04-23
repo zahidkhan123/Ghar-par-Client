@@ -1,0 +1,46 @@
+.pin-verf {
+  margin: 0 auto;
+  padding: 40px 40px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 380px;
+}
+.pin-verf label {
+  margin-bottom: 20px;
+}
+.pin-verf small {
+  color: $supirb_20black_color;
+  margin-bottom: 40px;
+}
+.pin-verf small span {
+  color: $supirb_blue_color;
+  font-weight: 500;
+}
+.pin-verf input {
+  max-width: 45px;
+  height: 45px;
+  background: $supirb_40black_color 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  margin-right: 20px;
+}
+.pin-verf input:last-child {
+  margin-right: 0;
+}
+.pin-verf form {
+  margin-bottom: 40px;
+}
+.pin-verf .form-control:focus {
+  color: $supirb_2black_color;
+  background-color: $supirb_40black_color;
+  border-color: $supirb_40black_color;
+  outline: 0;
+  box-shadow: none;
+}
+.pin-verf a {
+  font-size: 12px;
+  color: $supirb_2black_color;
+}

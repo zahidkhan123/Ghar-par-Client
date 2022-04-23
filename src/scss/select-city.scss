@@ -1,0 +1,101 @@
+.select-city {
+  background: $supirb_white_color;
+  box-shadow: 0px 15px 60px #00000014;
+}
+
+.select-city .makeStyles-paper-78 {
+  // left: 37%;
+  // top: 20%;
+}
+
+.modal-title {
+  text-align: center;
+  padding: 20px;
+  background-color: $supirb_header-bg_color;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-weight: 500;
+}
+
+.sel-radio-btn {
+  border: 1px solid $supirb_light-gray_color;
+  border-radius: 8px;
+  width: 273px;
+  position: relative;
+  margin: 5px auto;
+  text-align: left;
+  padding-left: 14px;
+  margin-left: 20px;
+}
+
+.select-city .MuiFormGroup-root {
+  // flex-direction: column !important;
+}
+
+.select-city .makeStyles-checkedIcon-21 {
+  background-image: url(../images/ic_tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px;
+}
+
+.select-city .MuiFormControlLabel-root {
+  justify-content: space-between;
+}
+
+.select-city .MuiTypography-body1 {
+  font-size: 12px !important;
+}
+
+.select-city .PrivateSwitchBase-root-25 {
+  padding: 7px 14px;
+}
+
+.select-city .MuiFormControl-root {
+  height: 173px;
+  overflow: auto;
+  margin-top: 15px;
+  // display: flow-root;
+}
+.select-city .MuiFormControl-root::-webkit-scrollbar {
+  background: $supirb_light-gray_color;
+  width: 5px;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+/* Handle */
+.select-city .MuiFormControl-root::-webkit-scrollbar-thumb {
+  background: $supirb_20black_color;
+  height: 121px;
+}
+
+/* Handle on hover */
+.select-city .MuiFormControl-root::-webkit-scrollbar-thumb:hover {
+  background: $supirb_20black_color;
+}
+
+.select-city .MuiFormControlLabel-labelPlacementStart {
+  margin-right: 12px;
+}
+
+.select-city .sel-city-btn {
+  margin: 30px 20px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.select-city .btn.disabled,
+.btn:disabled {
+  opacity: 1;
+  cursor: not-allowed;
+  background-color: $supirb_light-gray_color;
+  box-shadow: none;
+}
+
+@media (max-width: 767.98px) {
+  .select-city .makeStyles-paper-4 {
+    // left: 7%;
+    // top: 12%;
+  }
+}

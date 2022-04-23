@@ -1,0 +1,30 @@
+.error-page{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.error-page img{ 
+    padding: 30px 0;
+}
+.error-page h3{
+    font-size: 30px;
+    font-weight: 700;
+    color:$supirb_black_color;
+    margin-bottom: 40px;
+}
+.error-page span{
+    max-width: 220px;
+    font-size: 18px;
+    color: $supirb_20black_color;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767.98px) { 
+    .error-page img{ 
+        width: 80%;
+    }
+}

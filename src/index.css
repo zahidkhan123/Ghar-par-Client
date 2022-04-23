@@ -1,0 +1,166 @@
+/* Global Styles */
+:root {
+    --primary-color: #17a2b8;
+    --dark-color: #343a40;
+    --light-color: #f4f4f4;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 14px;
+  
+    font-family:  'Poppins', sans-serif;
+    margin: 0;
+  }
+  p{padding:0; margin: 0;}
+  a{text-decoration: none;}
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li{list-style: none;}
+
+  
+  /* Utilities */
+  .container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 ;
+    /* margin-top: 6rem;
+    margin-bottom: 3rem; */
+  }
+  
+  /* Text Styles*/
+  .x-large {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .large {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-primary {
+    color: var(--primary-color);
+  }
+  
+  .text-dark {
+    color: var(--dark-color);
+  }
+  
+  /* Padding */
+  .p {
+    padding: 0.5rem;
+  }
+  .p-1 {
+    padding: 1rem;
+  }
+  .p-2 {
+    padding: 2rem;
+  }
+  .p-3 {
+    padding: 3rem;
+  }
+  .py {
+    padding: 0.5rem 0;
+  }
+  .py-1 {
+    padding: 1rem 0;
+  }
+  .py-2 {
+    padding: 2rem 0;
+  }
+  .py-3 {
+    padding: 3rem 0;
+  }
+  
+  /* Margin */
+  .m {
+    margin: 0.5rem;
+  }
+  .m-1 {
+    margin: 1rem;
+  }
+  .m-2 {
+    margin: 2rem;
+  }
+  .m-3 {
+    margin: 3rem;
+  }
+  .my {
+    margin: 0.5rem 0;
+  }
+  .my-1 {
+    margin: 1rem 0;
+  }
+  .my-2 {
+    margin: 2rem 0;
+  }
+  .my-3 {
+    margin: 3rem 0;
+  }
+  
+
+  
+
+  
+    /* Navbar */
+    /* .navbar {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar ul {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .navbar h1 {
+      margin-bottom: 1rem;
+    }
+  
+    .navbar .welcome {
+      display: none;
+    }
+  
+    /* Profiles Page */
+    .profile {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .profile ul {
+      display: none;
+    }
+    /* @media (min-width: 576px) { 
+      .container{
+        max-width: 550px;
+      }
+    }
+    @media (min-width: 360.98px) { 
+      .container{
+        max-width: 350px;
+      }
+    } */

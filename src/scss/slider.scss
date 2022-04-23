@@ -1,0 +1,60 @@
+  button.owl-prev {
+    position: absolute;
+    left: 0px;
+    top: 37%;
+    transform: translateY(-50%);
+    background-color: white !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100% !important;
+    color: #000 !important;
+  }
+
+  button.owl-next {
+    position: absolute;
+    right: 0px;
+    top: 37%;
+    transform: translateY(-50%);
+    background-color: white !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100% !important;
+    color: #000 !important;
+  }
+
+
+  .owl-dots {
+    display: none;
+  }
+
+  .owl-carousel {
+    display: block !important;
+  }
+
+  .owl-carousel .owl-item {
+    display: flex;
+  }
+
+  button.owl-next {
+    top: 40%;
+  }
+
+  button.owl-next span {
+    font-size: 40px;
+  }
+
+  button.owl-next:focus {
+    outline: none
+  }
+
+  button.owl-prev {
+    top: 40%;
+  }
+
+  button.owl-prev span {
+    font-size: 40px;
+  }
+
+  button.owl-prev:focus {
+    outline: none
+  }

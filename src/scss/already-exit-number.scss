@@ -1,0 +1,23 @@
+.exit-num{
+    margin: 0 auto;
+    padding: 40px 50px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 365px;
+}
+.exit-num span{
+    color: $supirb_blue_color;
+    margin: 20px 0;
+}
+.exit-num small{
+    color: $supirb_20black_color;
+    line-height: 20px;
+}
+.exit-num .done-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}

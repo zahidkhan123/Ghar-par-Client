@@ -1,0 +1,229 @@
+$primary-color: #f68d2f;
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.2;
+  background-color: #f2f2f2;
+}
+.welcome-box {
+  height: 120px;
+  background: transparent
+    linear-gradient(99deg, #ffbb7e 0%, #faa458 39%, #f3790b 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 12px;
+  margin-top: 50px;
+  box-shadow: -1px 20px 20px -7px RGB(255 187 126 / 0%),
+    0px 11px 15px 0px RGB(243 121 11 / 36%);
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  .id-picture {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    background: red;
+    border-radius: 100px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .id-profile {
+    color: white;
+    width: calc(100% - 90px);
+    .id-name {
+      font-weight: 700;
+    }
+    .id-status {
+      font-size: 12px;
+    }
+    .id-referal {
+      font-size: 12px;
+      border-top: 1px solid #dfdfdf;
+      padding-top: 8px;
+      margin-top: 6px;
+    }
+  }
+}
+
+.shadow-box {
+  min-height: 120px;
+  border-radius: 12px;
+  margin-top: 25px;
+  background: white;
+  box-shadow: 0px 3px 20px RGB(0 0 0 / 10%);
+  padding: 20px 30px;
+  .box-heading {
+    font-weight: 700;
+    font-size: 16px;
+    label {
+      float: right;
+      span {
+        color: #00bfff;
+      }
+    }
+  }
+  .box-content {
+    margin-top: 20px;
+    display: flex;
+    ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        display: flex;
+        width: calc(100% / 2);
+        margin-bottom: 15px;
+        label {
+          font-size: 15px;
+          input[type="checkbox"],
+          input[type="radio"] {
+            box-sizing: border-box;
+            -webkit-transform: scale(2);
+            padding: 0;
+            width: 30px;
+          }
+          span {
+            font-weight: 700;
+            color: $primary-color;
+          }
+        }
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .input-referral {
+      display: flex;
+      .form-control {
+        min-height: 44px;
+        line-height: 18px;
+        padding: 5px;
+        background: #f2f3f3;
+        border: none;
+        color: #17222d;
+        border-radius: 4px 0px 0px 4px;
+        min-width: 229px;
+      }
+      .btn-group {
+        width: 100px;
+        height: 44px;
+        text-align: center;
+        text-transform: uppercase;
+        background: $primary-color;
+        color: white;
+        border: none;
+        font-weight: 600;
+        border-radius: 0px 4px 4px 0px;
+        font-size: 12px;
+        padding: 11px 0px 0px 23px;
+      }
+    }
+    .input-referral-one {
+      width: 100%;
+      display: flex;
+      .form-control {
+        min-height: 44px;
+        line-height: normal;
+        padding: 0px 0px 0px 20px;
+        background: #f2f3f3;
+        border: none;
+        color: #17222d;
+        border-radius: 4px 0px 0px 4px;
+        min-width: 229px;
+      }
+      .btn-group {
+        width: 150px;
+        height: 44px;
+        text-align: center;
+        text-transform: uppercase;
+        background: #f68d2f;
+        color: white;
+        border: none;
+        font-weight: 700;
+        border-radius: 0px 4px 4px 0px;
+        font-size: 12px;
+        padding: 13px 0px 0px 45px;
+      }
+    }
+    .share-order {
+      display: flex;
+      .status-label {
+        margin-left: 15px;
+        min-height: 44px;
+        line-height: normal;
+        padding: 0px 0px 0px 0px;
+        background: #f2f3f3;
+        border: none;
+        color: #17222d;
+        border-radius: 4px;
+        min-width: 290px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          font-size: 18px;
+          font-weight: 900;
+          margin-right: 8px;
+        }
+      }
+    }
+
+    > div {
+      margin-right: 24px;
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+    .btn-redeem {
+      height: 44px;
+      text-align: center;
+      text-transform: uppercase;
+      background: $primary-color;
+      color: white;
+      border: none;
+      font-weight: 600;
+      border-radius: 4px;
+      font-size: 12px;
+      min-width: 460px;
+      line-height: 44px;
+      margin: 0px auto;
+    }
+  }
+  .id-service {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767.98px) {
+  .shadow-box {
+    .box-heading {
+      margin-bottom: 10px;
+    }
+    .box-content {
+      display: inline;
+      ul {
+        display: inline;
+        li {
+          width: auto;
+        }
+      }
+      .input-referral {
+        margin-top: 10px;
+        width: 100%;
+      }
+      .share-order {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        .status-label {
+          min-width: auto;
+          height: 70px;
+        }
+      }
+      .btn-redeem {
+        margin-top: 10px;
+        min-width: 100%;
+      }
+    }
+  }
+}

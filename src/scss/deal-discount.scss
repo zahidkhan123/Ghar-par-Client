@@ -1,0 +1,32 @@
+.deal-popup {
+  // background: url('../images/Group 1194.svg') no-repeat;
+  // background: black;
+  // background: "grey"
+}
+
+.deal-discount-title {
+  margin-top: 20px;
+}
+
+.deal-discount-body {
+  margin-top: 26px;
+}
+
+.deal-discount-body span {
+  font-size: 10px;
+  color: $supirb_white_color;
+}
+
+.deal-discount-body p {
+  color: $supirb__yellow_color;
+  font-size: 35px;
+  line-height: 32px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.deal-discount .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

@@ -1,0 +1,93 @@
+{
+  "name": "devconnector",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@progress/kendo-licensing": "^1.1.0",
+    "@progress/kendo-react-dateinputs": "^4.1.0",
+    "@progress/kendo-react-intl": "^4.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "baseui": "^9.76.0",
+    "basic-react-timepicker": "^1.0.0",
+    "beauty-stars": "^1.1.0",
+    "bootstrap": "^4.4.1",
+    "disable-scroll": "^0.5.1",
+    "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
+    "form-data": "^3.0.0",
+    "history": "^4.10.1",
+    "image-size": "^0.8.3",
+    "jquery": "^3.5.1",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.14.1",
+    "query-string": "^6.13.7",
+    "react": "^16.12.0",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.12.0",
+    "react-facebook-pixel": "^1.0.3",
+    "react-geocode": "^0.2.1",
+    "react-geolocated": "^3.1.0",
+    "react-gtm-module": "^2.0.11",
+    "react-hook-form": "^5.2.0",
+    "react-hook-geolocation": "^1.0.6",
+    "react-hot-loader": "^4.12.21",
+    "react-iframe": "^1.8.0",
+    "react-input-mask": "^2.0.4",
+    "react-loader-spinner": "^3.1.14",
+    "react-modal": "^3.11.2",
+    "react-multi-carousel": "^2.5.5",
+    "react-native-table-component": "^1.2.1",
+    "react-onesignal": "^1.4.1",
+    "react-pin-input": "^0.9.2",
+    "react-rating": "^2.0.5",
+    "react-rating-stars-component": "^1.1.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scratchcard": "^1.1.2",
+    "react-scripts": "3.3.0",
+    "react-select": "^3.1.0",
+    "react-star-rating": "^1.4.2",
+    "react-table": "^7.0.0",
+    "react-toastify": "^6.0.8",
+    "react-use-geolocation": "^0.1.1",
+    "reactjs-popup": "^1.5.0",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7",
+    "use-force-update": "^1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-baseui": "^9.77.0"
+  }
+}
